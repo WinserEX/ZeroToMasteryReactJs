@@ -1,0 +1,21 @@
+React is less complex which allows you to build better apps faster.
+
+React is Component based. They are resusable just like "Lego Blocks".
+
+You can access different component libraries.
+
+State describes app data and status, state shapes components. 
+
+State > Onde way dataflow > Component: Easier to debug.
+
+React contains 2 libraries: React and ReactDOM
+
+React main concepts:
+
+Declarative, State, JSX, Props, Components, VirtualDOM
+
+Be great at React:
+
+1- Decide on Components.
+2- Decide the State and where it lives.
+3-What changes when the State changes.

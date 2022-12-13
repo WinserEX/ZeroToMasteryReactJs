@@ -2,7 +2,7 @@ import { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  //Runs first
+  //Runs 1st
   constructor() {
     super();
 
@@ -27,7 +27,7 @@ class App extends Component {
           }
         ))    
   }
-
+  //Method created in order to optimize app by removing said method from render
   onSearchChange = (event) => {
     const searchField = event.target.value.toLocaleLowerCase();
     this.setState(()=>{
@@ -35,7 +35,7 @@ class App extends Component {
     })              
   }
 
-  //Runs second, then runs 4th
+  //Runs 2nd, then runs 4th
    render() {
     console.log('render');
 
